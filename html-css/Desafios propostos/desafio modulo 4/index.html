@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+</head>
+<body>
+    <main>
+        <section id="um">
+            <div id="imagem"></div>
+            
+            <div id="formulario">
+                <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="get.php" method="post" autocomplete="on">
+                    <div class="campo">   
+                        <label for="iemail">
+                            <span class="material-symbols-outlined">
+                                person</span>
+                        </label>
+                        <input type="email" name="email" id="iemail" required size="21"> 
+
+                     </div>
+                    <div class="campoo">
+                        <label for="isenha" id="cima"><span class="material-symbols-outlined">key</span></label>
+                            <input type="password" name="senha" id="isenha" required maxlength="30" minlength="8" size="21">
+                    </div>
+                        <button id="submit">
+                            <input type="submit" value="Enviar">
+                        
+                        <button>
+                    </input>
+                    <button id="senha">
+                        <a href="#">Esqueci a senha <span class="material-symbols-outlined">
+                                mail
+                                </span></a>
+                    <button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
